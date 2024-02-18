@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* * {
+    font-family: "Inter", sans-serif;
+} */
+
+body header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-bottom: 20px;
+    font-family: "Inter", sans-serif;
+}
+
+#menu {
+    display: flex;
+    gap: 40px;
+    color: grey;
+    font-size: 20px;
+}
+
+#menu span {
+    transition: all 0.1s ease;
+}
+
+#menu span:hover {
+    transform: scale(105%);
+    color: rgb(117, 114, 114);
+    font-weight: 700;
+}
+
+#cadastro {
+    display: flex;
+    gap: 15px;
+    
+}
+
+#btn-entrar {
+    height: 45px;
+    width: 100px;
+    border: 1px blue solid ;
+    background-color: white;
+    color: blue;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+#btn-entrar:hover {
+    transform: scale(105%);
+    background-color: blue;
+    color: white;
+}
+
+#btn-cadastrar {
+    height: 45px;
+    width: 150px;
+    border: 1px red solid ;
+    background-color: white;
+    color: red;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+#btn-cadastrar:hover {
+    transform: scale(105%);
+    background-color: red;
+    color: white;
+}
+
+#hero {
+    font-family: "Inter", sans-serif;
+    padding-top: 20px;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-bottom: 20px;
+    background-color: #f7f8f9;
+    
+}
+
+#hero h1 {
+    color: gray;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 20px;
+    
+}
+
+#cardapio {
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+#cardapio h3 {
+    color: gray;
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: "Inter", sans-serif;
+}
+
+#criar {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+ #criar #sla {
+    height: 200px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    -webkit-box-shadow: 0px 0px 23px 0px rgb(238, 238, 238);
+    -moz-box-shadow: 0px 0px 23px 0px  rgb(238, 238, 238);
+    box-shadow: 0px 0px 23px 0px  rgb(238, 238, 238);
+}
+
+#sla span {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    color: gray;
+}
+
+#a {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#sobre {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-bottom: 20px;
+    font-family: "Inter", sans-serif;
+    color: grey;
+    gap: 20px;
+}
+
+#sobre-filho {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+#sobre-filho div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#sobre h3 {
+    font-weight: 500;
+    font-size: 30px;
+   
+}
+
+#sobre p {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+#sobre span {
+    font-weight: 500;
+    font-size: 20px;
+    
+}
+
